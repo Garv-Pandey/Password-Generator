@@ -15,7 +15,7 @@ def main():
         print("\nNothing selected to create password.")
         return
 
-    pass_len = int(input("5/5.Max Length Of Password: "))
+    pass_len = int(input("5/5. Max Length Of Password: "))
 
     password_generator(pass_len, inc_pattern)
 
@@ -66,7 +66,6 @@ def password_generator(pass_len, inc_pattern):
     print("\nPassword: ", password)
 
     action = input("Recreate Password?(0/1): ")
-
     if action == "1":
         password_generator(pass_len, inc_pattern)
 
