@@ -5,8 +5,6 @@ import string
 def main():
     print("###Password Generator###\n")
 
-    password = None
-
     inc_small_chars = input("1/5. Include Small Letters(0/1): ").strip()
     inc_cap_chars = input("2/5. Include Capital Letters(0/1): ").strip()
     inc_digits = input("3/5. Include Integers(0/1): ").strip()
